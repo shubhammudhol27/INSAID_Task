@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ContactUs</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo1">
+          <img src="./logoSS.jpg" alt="" />
+        </div>
+        <ul class="nav-area">
+          <li><a href="./Home.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="./Services.html">Services</a></li>
+          <li><a href="./ContactUS.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <main>
+          <section id="contact">
+            <h1>Contact Us</h1>
+            <div id="error_message"></div>
+
+            <form action="#" method="" onsubmit="return Submit();">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" />
+
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" />
+
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" />
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </section>
+        </main>
+      </div>
+    </header>
+  </body>
+</html>
